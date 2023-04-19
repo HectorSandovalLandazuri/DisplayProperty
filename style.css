@@ -1,0 +1,94 @@
+div {
+    background: blue;
+    color: white;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+span {
+    background: red;
+    color: white;
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.block {
+    background: blue;
+    color: white;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.inline {
+    background: red;
+    color: white;
+}
+
+body {
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    color: #f15025;
+    text-decoration: none;
+    letter-spacing: 2px;
+    background: #222;
+    padding: 5px;
+    display: block;
+}
+
+.box-1, .box-2, .box-3 {
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.box-1 {
+    background: red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box-2 {
+    background: blue;
+}
+
+.box-3 {
+    background: green;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+a {
+    font-size: 1.5rem;
+    background: red;
+    width: 50px;
+    height: 50px;
+    margin: 40px 10px;
+    display: inline-block;
+}
+
+.none {
+    display: none;
+}
+
+.opacity-1 {
+    opacity: 1;
+}
+
+.opacity-5 {
+    opacity: 0.5;
+}
+.opacity-0 {
+    opacity: 0;
+}
+
+.visibility {
+    visibility: hidden;
+}
